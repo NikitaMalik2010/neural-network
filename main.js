@@ -11,7 +11,7 @@ function take_snapshot()
 {
     Webcam.snap(function(data_uri)
     {
-        document.getElementsByID("result").innerHTML='<img id="captured_image" src="'+data_uri+'"/>';
+        document.getElementByID("result").innerHTML='<img id="captured_image" src="'+data_uri+'"/>';
     });
 }
 
